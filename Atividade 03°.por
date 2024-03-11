@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
     
-  //DeclaraÁ„o de vari·veis.
+  //Declara√ß√£o de vari√°veis.
 
   inteiro valorA, valorB, c
   
 
-  //Solicitando dados ao usu·rio.
+  //Solicitando dados ao usu√°rio.
 
   escreva("Digite o valor de A: ")
   leia(valorA)
@@ -15,7 +15,7 @@ programa {
   leia(valorB)
 
 
-  //CondiÁıes.
+  //Condi√ß√µes.
 
   se (valorA == valorB){
     c = valorA + valorB 
