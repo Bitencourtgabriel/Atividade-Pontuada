@@ -1,15 +1,15 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o vari·vel.
+    //Declara√ß√£o vari√°vel.
 
     cadeia cd 
 
 
-    //Solicitando dados ao usu·rio.
+    //Solicitando dados ao usu√°rio.
 
     escreva("Bem-vindo a loja Cd's do Programador!")
     escreva("\n")
-    escreva("\n Escolha uma cor para saber o preÁo do Cd")
+    escreva("\n Escolha uma cor para saber o pre√ßo do Cd")
     escreva("\n ======= MENU ======= ")
     escreva("\n Cor \t\t\t\t Verde ")
     escreva("\n Cor \t\t\t\t Azul ")
@@ -33,37 +33,37 @@ programa {
 
       caso "verde" :
       escreva("Cor escolhida: Verde")
-      escreva("\nPreÁo: R$ 10.00 reias")
+      escreva("\nPre√ßo: R$ 10.00 reias")
       pare
 
       caso "Azul" :
       escreva("Cor escolhida: Azul")
-      escreva("\nPreÁo: R$ 20.00 reais")
+      escreva("\nPre√ßo: R$ 20.00 reais")
       pare
 
       caso "azul" :
       escreva("Cor escolhida: Azul")
-      escreva("\nPreÁo: R$ 20.00 reais")
+      escreva("\nPre√ßo: R$ 20.00 reais")
       pare
 
       caso "Amarelo" :
       escreva("Cor escolhida: Amarelo")
-      escreva("\nPreÁo: R$ 30.00 reais")
+      escreva("\nPre√ßo: R$ 30.00 reais")
       pare
 
       caso "amarelo" : 
       escreva("Cor escolhida: Amarelo")
-      escreva("\nPreÁo: R$ 30.00 reias")
+      escreva("\nPre√ßo: R$ 30.00 reias")
       pare
 
       caso "Vermelho" :
       escreva("Cor escolhida: vermelho")
-      escreva("\nPreÁo: R$ 40.00 reais")
+      escreva("\nPre√ßo: R$ 40.00 reais")
       pare
 
       caso "vermelho" :
       escreva("Cor escolhida: Vermelho")
-      escreva("\nPreÁo: R$ 40.00 reias")
+      escreva("\nPre√ßo: R$ 40.00 reias")
     }
   }
 }
