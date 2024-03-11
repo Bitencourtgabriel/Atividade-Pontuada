@@ -1,12 +1,12 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
 
     real a, b, c
     real soma
 
 
-    //Solicitando dados ao usuário.
+    //Solicitando dados ao usuÃ¡rio.
 
     escreva("Digite o valor de A: ")
     leia(a)
@@ -18,7 +18,7 @@ programa {
     leia(c)
 
 
-    //Calculo das variáveis.
+    //Calculo das variÃ¡veis.
 
     soma = a + b
   
@@ -27,9 +27,9 @@ programa {
     //Exibindo resultado.
 
     se (soma > c){
-      escreva("\nA + B é maior que C")
+      escreva("\nA + B Ã© maior que C")
     } senao se(soma < c){
-      escreva("\nA + B é menor que C")
+      escreva("\nA + B Ã© menor que C")
     }
   }
 }
