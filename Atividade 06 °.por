@@ -1,13 +1,13 @@
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-    //Declaração de Variáavel.
+    //DeclaraÃ§Ã£o de VariÃ¡avel.
 
     real primeiraNota, segundanota, media
     real arredonda
 
 
-    //Solicitando dados para o usuário.
+    //Solicitando dados para o usuÃ¡rio.
 
     escreva("Digite a nota da I unidade: ")
     leia(primeiraNota)
@@ -26,9 +26,9 @@ programa {
    //Condicional.
 
    se (media >= 6 ){
-    escreva("Parabéns aluno aprovado!")
+    escreva("ParabÃ©ns aluno aprovado!")
    } senao se(media >= 4 e media < 6 ){
-    escreva("Infelizmente o aluno está em recuperação!")
+    escreva("Infelizmente o aluno estÃ¡ em recuperaÃ§Ã£o!")
    } senao se(media < 4 ){
     escreva("Infelizmente reprovado!")
    }
@@ -37,7 +37,7 @@ programa {
 
     escreva("\nNota da I unidade: ", primeiraNota)
     escreva("\nNota da II unidade: ", segundanota)
-    escreva("\nMédia: ", media)
+    escreva("\nMÃ©dia: ", media)
   
 
      }
