@@ -1,29 +1,29 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o de vari·vel
+    //Declara√ß√£o de vari√°vel
 
     inteiro a, b 
     inteiro op, resultado
 
 
-    //Solicitando dados ao usu·rio.
+    //Solicitando dados ao usu√°rio.
 
     escreva("======= CALCULADORA ====== ")
     escreva("\n")
-    escreva("Digite o primeiro n˙mero:  ")
+    escreva("Digite o primeiro n√∫mero:  ")
     leia(a)
 
     limpa()
 
     escreva("1 para SOMA\n")
-    escreva("2 para SUBTRA«√O\n")
-    escreva("3 para MULTIPLICA«√O\n")
-    escreva("4 para DIVIS√O\n")
-    escreva(" Escolha uma operaÁ„o b·sica: \n ")
+    escreva("2 para SUBTRA√á√ÉO\n")
+    escreva("3 para MULTIPLICA√á√ÉO\n")
+    escreva("4 para DIVIS√ÉO\n")
+    escreva(" Escolha uma opera√ß√£o b√°sica: \n ")
     leia(op) 
     limpa()
 
-    escreva("Digite o segundo n˙mero: ")
+    escreva("Digite o segundo n√∫mero: ")
     leia(b)
 
     limpa()
@@ -54,7 +54,7 @@ programa {
       pare
 
       caso contrario: 
-      escreva("OperaÁ„o inv·lida!")
+      escreva("Opera√ß√£o inv√°lida!")
     }
 
   }
