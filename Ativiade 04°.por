@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-   //Declaração de variável.
+   //DeclaraÃ§Ã£o de variÃ¡vel.
 
    real kgMorango, kgMaca, precoMorango, precoMaca
    real kgTotal, desconto, custo, pagamento, pgMorango, pgMaca
@@ -8,13 +8,13 @@ programa {
 
    //Solicitando dados ao cliente.
 
-   escreva(" \t\t\t\t\t\t\t\t\t\t Até 5kg     \t\t\t\t\t\t\t\t Acima de 5kg ")
+   escreva(" \t\t\t\t\t\t\t\t\t\t AtÃ© 5kg     \t\t\t\t\t\t\t\t Acima de 5kg ")
    escreva("\nMorango \t\t\t\t\t R$ 2.50 por kg \t\t\t\t\t\t R$ 2.20 por kg ")
-   escreva("\nMaçã \t\t\t\t\t\t\t R$ 1.80 por kg \t\t\t\t\t\t R$ 1.50 por kg ")
+   escreva("\nMaÃ§Ã£ \t\t\t\t\t\t\t R$ 1.80 por kg \t\t\t\t\t\t R$ 1.50 por kg ")
    escreva("\n")
    escreva("\nInforme a quantidade de morango: ")
    leia(kgMorango) 
-   escreva("Informe a quantidade de maçã: ")
+   escreva("Informe a quantidade de maÃ§Ã£: ")
    leia(kgMaca)
 
 
@@ -47,15 +47,15 @@ programa {
 
    limpa()
 
-   escreva("Você adquiriu ", kgMorango, " Kg de morangos")
-   escreva("\nvocê adquiriu ", kgMaca, " kg de maçãs")
+   escreva("VocÃª adquiriu ", kgMorango, " Kg de morangos")
+   escreva("\nvocÃª adquiriu ", kgMaca, " kg de maÃ§Ã£s")
 
    se (kgTotal > 8 ou custo > 25){
     pagamento = (custo - desconto)
    } senao{
     pagamento = custo
    }
-   escreva("\nValor a ser pago é: R$",pagamento)
+   escreva("\nValor a ser pago Ã©: R$",pagamento)
 
   }
 }
