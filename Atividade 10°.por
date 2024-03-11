@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis.
+    //DeclaraÃ§Ã£o de variÃ¡veis.
 
     real litro, totalApagar, desconto
     cadeia tipoDeCombustivel
@@ -9,10 +9,10 @@ programa {
     
 
 
-    //Solicitação de dados ao usuário.
+    //SolicitaÃ§Ã£o de dados ao usuÃ¡rio.
     
     escreva("Escolha o tipo de combustivel")
-    escreva("\nA para ÁLCOOL")
+    escreva("\nA para ÃLCOOL")
     escreva("\nG para GASOLINA")
     escreva("\nTipo de combustivel: ")
     leia(tipoDeCombustivel)
@@ -31,7 +31,7 @@ programa {
       } se (litro > 25){
         desconto = litro * 0.04
       }
-      totalApagar = (precoAlcool * litro) - desconto
+      totalApagar = precoAlcool * (litro * ("A" - (2/100)))
       pare 
 
       caso "G":
@@ -40,7 +40,7 @@ programa {
       } se (litro > 25){
         desconto = 0.05
       }
-      totalApagar = (precoGasolina * litro) - desconto
+      totalApagar = precoGasolina  * ( "G" - (
       pare 
 
       caso "a":
@@ -58,19 +58,16 @@ programa {
       }se (litro > 25){
         desconto = litro * 0.05
       }
-      totalApagar = (precoGasolina * litro) - desconto
+      totalApagar = (precoGasolina * litro) - desconto 
       }
 
 
       //Resultado.
 
-      escreva("Valor a ser pago é: ",totalApagar)
+      escreva("Valor a ser pago Ã©: ",totalApagar)
 
 
-
-
-
-
+// total apgar = (preco gasolin * desconto) *  a litro
     }
 
     
