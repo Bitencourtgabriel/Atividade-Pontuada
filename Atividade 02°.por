@@ -1,18 +1,18 @@
 programa {
   funcao inicio() {
 
-   //Declaração de variáveis.
+   //DeclaraÃ§Ã£o de variÃ¡veis.
 
    cadeia nome, estadoCivil, sexo
    
    real tempo_de_casado
    
 
-   //Solicitando dados ao usuário.
+   //Solicitando dados ao usuÃ¡rio.
    escreva("Informe seu nome: ")
    leia(nome)
 
-   escreva("Informe seu gênero sexual: ")
+   escreva("Informe seu gÃªnero sexual: ")
    leia(sexo)
 
    escreva("Informe seu estado civil: ")
@@ -28,9 +28,9 @@ programa {
 
    limpa()
 
-   escreva("Informação do usuário")
+   escreva("InformaÃ§Ã£o do usuÃ¡rio")
    escreva("\nNome: ", nome)
-   escreva("\nGênero sexual: ", sexo)
+   escreva("\nGÃªnero sexual: ", sexo)
    escreva("\nEstado civil: ", estadoCivil)
    se (sexo == "Feminino" e estadoCivil == "Casada"){
     escreva("\nTempo de casada: ", tempo_de_casado, " anos")
