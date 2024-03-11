@@ -8,7 +8,7 @@ programa {
 
     //Solicitando dados ao usuário.
    
-   escreva("\t\t\t\t\t Emprestimo do Programador")
+   escreva("\t\t\t\t\t Empréstimo do Programador")
    escreva("\n")
    escreva("\n")
    escreva("Informe o valor da renda mensal: ")
