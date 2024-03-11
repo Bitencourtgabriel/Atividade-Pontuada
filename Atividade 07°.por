@@ -1,14 +1,14 @@
 programa {
-  inclua biblioteca Matematica--> mat
+  //inclua biblioteca Matematica--> mat
   funcao inicio() {
-    //DeclaraÁ„o de vari·vel.
+    //Declara√ß√£o de vari√°vel.
 
     cadeia produto 
     real preco, quantidadeAdquirida, desconto, totalApagar, custo
-    real arredonda
+    //real arredonda
 
 
-    //Solicitando dados ao usu·rio.
+    //Solicitando dados ao usu√°rio.
 
     escreva("Informe o produto: ")
     leia(produto)
@@ -16,7 +16,7 @@ programa {
     escreva("Quantidade Adquirida ")
     leia(quantidadeAdquirida)
 
-    escreva("Informe preÁo unit·rio: ")
+    escreva("Informe pre√ßo unit√°rio: ")
     leia(preco)
 
     
