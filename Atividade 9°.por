@@ -1,19 +1,19 @@
 programa {
   funcao inicio() {
-    //Declaração de variáveis
+    //DeclaraÃ§Ã£o de variÃ¡veis
 
     real rendaMensal, emprestimo, valorParcela
     
 
 
-    //Solicitando dados ao usuário.
+    //Solicitando dados ao usuÃ¡rio.
    
    escreva("\t\t\t\t\t Emprestimo do Programador")
    escreva("\n")
    escreva("\n")
    escreva("Informe o valor da renda mensal: ")
    leia(rendaMensal)
-   escreva("Informe o valor do empréstimo: ")
+   escreva("Informe o valor do emprÃ©stimo: ")
    leia(emprestimo)
    escreva("Informe a quantidade de parcelas: ")
    leia(valorParcela)
@@ -25,10 +25,10 @@ programa {
    
    //Condicional.
 
-   se (valorParcela > (rendaMensal  * ( 30.0 / 100))){
-    escreva("Empréstimo não pode ser concedido!")
+   se (valorParcela <= (rendaMensal  * ( 30.0 / 100)) ou  emprestimo <= (rendaMensal * 10)){
+    escreva("EmprÃ©stimo nÃ£o pode ser concedido!")
    } senao {
-    escreva("Empréstimo pode ser concedido!")
+    escreva("EmprÃ©stimo pode ser concedido!")
    }
   }
 }
